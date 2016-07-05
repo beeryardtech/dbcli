@@ -1,0 +1,29 @@
+{
+  "name": "dbcli",
+  "version": "0.0.1",
+  "description": "Features for dropbox!",
+  "private": true,
+  "bin": {
+    "dbcli": "./bin/dbcli"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Travis Goldie",
+    "email": "tgoldie@gmail.com",
+    "url": "https://github.com/beeryardtech"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beeryardtech/dbcli"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/beeryardtech/dbcli/issues",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "autocmdr": "~0.0.7"
+  },
+  "devDependencies": {
+  }
+}
